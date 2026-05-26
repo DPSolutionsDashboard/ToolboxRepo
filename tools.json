@@ -2,9 +2,43 @@
     {
         "Name": "Test Notepad",
         "Category": "System",
-        "Version": "1.0",
         "Type": "builtin",
+        "Version": "1.0",
         "Command": "notepad.exe",
-        "Description": "Test tool"
+        "Description": "Built-in test: launches Notepad"
+    },
+    {
+        "Name": "WinDirStat (x64)",
+        "Category": "Storage",
+        "Version": "1.0",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/WinDirStat_x64.exe",
+        "Description": "WinDirStat (x64) - Disk usage statistics viewer"
+    },
+    {
+        "Name": "Sysinternals Suite",
+        "Folder": "SysinternalsSuite",
+        "Category": "System",
+        "Version": "1.0",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/SysinternalsSuite.zip",
+        "OpenFolder": true,
+        "Description": "Extracts Sysinternals Suite and opens folder in Explorer"
+    },
+    {
+        "Name": "Configure NTP",
+        "Category": "System",
+        "Type": "script",
+        "Version": "1.0",
+        "Url": "https://raw.githubusercontent.com/DPsolutionsDashboard/ToolboxRepo/main/scripts/scripts/resync_time_auto_time_zone.ps1",
+        "RunAsAdmin": true,
+        "Description": "Configure NTP settings and time service with included auto time zone detection script (requires elevation - UAC prompt)"
+    },
+    {
+        "Name": "Get Shutdown Event Logs",
+        "Category": "System",
+        "Type": "script",
+        "Version": "1.0",
+        "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/get_shutdown_logs.ps1",
+        "RunAsAdmin": true,
+        "Description": "Script requiring elevation (UAC prompt)"
     }
 ]
