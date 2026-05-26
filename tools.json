@@ -30,6 +30,7 @@
         "Type": "script",
         "Version": "1.0",
         "Url": "https://raw.githubusercontent.com/DPsolutionsDashboard/ToolboxRepo/main/scripts/scripts/resync_time_auto_time_zone.ps1",
+        "Pause": true,
         "RunAsAdmin": true,
         "Description": "Configure NTP settings and time service with included auto time zone detection script (requires elevation - UAC prompt)"
     },
@@ -39,7 +40,6 @@
         "Type": "script",
         "Version": "1.0",
         "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/get_shutdown_logs.ps1",
-        "Pause": true,
         "RunAsAdmin": true,
         "Description": "Script requiring elevation (UAC prompt)"
     }
