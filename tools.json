@@ -39,6 +39,7 @@
         "Type": "script",
         "Version": "1.0",
         "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/get_shutdown_logs.ps1",
+        "Pause": true,
         "RunAsAdmin": true,
         "Description": "Script requiring elevation (UAC prompt)"
     }
