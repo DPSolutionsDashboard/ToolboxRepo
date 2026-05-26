@@ -1,0 +1,10 @@
+[
+    {
+        "Name": "Test Notepad",
+        "Category": "System",
+        "Version": "1.0",
+        "Type": "builtin",
+        "Command": "notepad.exe",
+        "Description": "Test tool"
+    }
+]
