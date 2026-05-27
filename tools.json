@@ -168,5 +168,25 @@
         "Pause": false,
         "RunAsAdmin": true,
         "Description": "Retrieves Windows Update history logs from the local machine and saves them to a CSV file on the desktop (requires elevation - UAC prompt)"
+    },
+    {
+        "Name": "Get Active Directory Computers",
+        "Category": "System",
+        "Type": "script",
+        "Version": "1.0",
+        "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/get_ad_computers.ps1",
+        "Pause": false,
+        "RunAsAdmin": true,
+        "Description": "Retrieves Active Directory computer information and saves it to a CSV file on the desktop (must be run on Domain Controller or machine with AD PowerShell module and appropriate permissions - UAC prompt for elevation)"
+    },
+    {
+        "Name": "Get Active Directory Users",
+        "Category": "System",
+        "Type": "script",
+        "Version": "1.0",
+        "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/get_ad_users.ps1",
+        "Pause": false,
+        "RunAsAdmin": true,
+        "Description": "Retrieves Active Directory user information and saves it to a CSV file on the desktop (must be run on Domain Controller or machine with AD PowerShell module and appropriate permissions - UAC prompt for elevation)"
     }
 ]
