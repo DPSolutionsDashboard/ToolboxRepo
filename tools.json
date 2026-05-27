@@ -140,20 +140,28 @@
         "Description": "CrystalDisk Info Portable - Disk information and health monitoring tool"
     },
     {
-        "Name": "HWMonitor (x32)",
+        "Name": "HWiNFO32",
         "Category": "System",
         "Version": "1.0",
-        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/HWMonitor_x32.exe",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/HWiNFO32.exe",
         "RunAsAdmin": true,
-        "Description": "HWMonitor (x32) - System information and monitoring tool"
+        "Description": "HWiNFO32 - System information and monitoring tool"
     },
     {
-        "Name": "HWMonitor (x64)",
+        "Name": "HWiNFO64",
         "Category": "System",
         "Version": "1.0",
-        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/HWMonitor_x64.exe",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/HWiNFO64.exe",
         "RunAsAdmin": true,
-        "Description": "HWMonitor (x64) - System information and monitoring tool"
+        "Description": "HWiNFO64 - System information and monitoring tool"
+    },
+    {
+        "Name": "HWiNFO_ARM64",
+        "Category": "System",
+        "Version": "1.0",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/HWiNFO_ARM64.exe",
+        "RunAsAdmin": true,
+        "Description": "HWiNF_ARM64 - System information and monitoring tool"
     },
     {
         "Name": "PUTTY",
