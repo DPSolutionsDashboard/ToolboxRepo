@@ -1,11 +1,57 @@
 [
     {
-        "Name": "Test Notepad",
-        "Category": "System",
+        "Name": "Notepad",
+        "Category": "Shortcuts",
         "Type": "builtin",
         "Version": "1.0",
         "Command": "notepad.exe",
-        "Description": "Built-in test: launches Notepad"
+        "RunAsAdmin": false,
+        "Description": "Built-in: launches Notepad"
+    },
+    {
+        "Name": "Command Prompt",
+        "Category": "Shortcuts",
+        "Type": "builtin",
+        "Version": "1.0",
+        "Command": "cmd.exe",
+        "RunAsAdmin": false,
+        "Description": "Built-in: launches Command Prompt"
+    },
+    {
+        "Name": "Command Prompt (Admin)",
+        "Category": "Shortcuts",
+        "Type": "builtin",
+        "Version": "1.0",
+        "Command": "cmd.exe",
+        "RunAsAdmin": true,
+        "Description": "Built-in: launches Command Prompt (Admin)"
+    },
+    {
+        "Name": "PowerShell",
+        "Category": "Shortcuts",
+        "Type": "builtin",
+        "Version": "1.0",
+        "Command": "powershell.exe",
+        "RunAsAdmin": false,
+        "Description": "Built-in: launches PowerShell"
+    },
+    {
+        "Name": "PowerShell (Admin)",
+        "Category": "Shortcuts",
+        "Type": "builtin",
+        "Version": "1.0",
+        "Command": "powershell.exe",
+        "RunAsAdmin": true,
+        "Description": "Built-in: launches PowerShell (Admin)"
+    },
+    {
+        "Name": "Registry Editor",
+        "Category": "Shortcuts",
+        "Type": "builtin",
+        "Version": "1.0",
+        "Command": "regedit.exe",
+        "RunAsAdmin": true,
+        "Description": "Built-in: launches Registry Editor"
     },
     {
         "Name": "WinDirStat (x64)",
