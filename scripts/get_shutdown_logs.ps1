@@ -1,4 +1,5 @@
-$LogPath = Join-Path $PSScriptRoot "ShutdownLog.txt"
+$compName = (cmd.exe /c hostname)
+$LogPath = Join-Path $PSScriptRoot "ShutdownLog-$compName.txt"
 
 Get-WinEvent -FilterHashtable @{
     LogName = 'System'

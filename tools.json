@@ -147,6 +147,26 @@
         "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/get_shutdown_logs.ps1",
         "Pause": false,
         "RunAsAdmin": true,
-        "Description": "Script requiring elevation (UAC prompt)"
+        "Description": "Retrieves shutdown event logs from the local machine and saves them to a text file on the desktop (requires elevation - UAC prompt)"
+    },
+    {
+        "Name": "Get MSI Event Logs",
+        "Category": "System",
+        "Type": "script",
+        "Version": "1.0",
+        "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/get_msi_logs.ps1",
+        "Pause": false,
+        "RunAsAdmin": true,
+        "Description": "Retrieves MSI event logs from the local machine and saves them to a text file on the desktop (requires elevation - UAC prompt)"
+    },
+    {
+        "Name": "Get Windows Update History",
+        "Category": "System",
+        "Type": "script",
+        "Version": "1.0",
+        "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/get_patch_logs.ps1",
+        "Pause": false,
+        "RunAsAdmin": true,
+        "Description": "Retrieves Windows Update history logs from the local machine and saves them to a CSV file on the desktop (requires elevation - UAC prompt)"
     }
 ]
