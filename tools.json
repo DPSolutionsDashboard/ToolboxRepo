@@ -288,5 +288,15 @@
         "Pause": true,
         "RunAsAdmin": true,
         "Description": "Rebinds the SentinelOne agent to a new site using SentinelCtl.exe and prompts for the site token and passphrase (requires elevation - UAC prompt for elevation)"
+    },
+    {
+        "Name": "Datto RMM Reinstall Agent",
+        "Category": "Security",
+        "Type": "script",
+        "Version": "1.0",
+        "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/datto_rmm_reinstall.ps1",
+        "Pause": true,
+        "RunAsAdmin": true,
+        "Description": "Reinstalls the Datto RMM agent prompts for the site ID (requires elevation - UAC prompt for elevation)"
     }
 ]
