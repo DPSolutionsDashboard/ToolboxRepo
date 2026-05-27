@@ -161,7 +161,7 @@
         "Version": "1.0",
         "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/HWiNFO_ARM64.exe",
         "RunAsAdmin": true,
-        "Description": "HWiNF_ARM64 - System information and monitoring tool"
+        "Description": "HWiNFO_ARM64 - System information and monitoring tool"
     },
     {
         "Name": "PUTTY",
