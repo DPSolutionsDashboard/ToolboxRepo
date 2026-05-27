@@ -5,6 +5,7 @@
         "Type": "builtin",
         "Version": "1.0",
         "Command": "notepad.exe",
+        "Arguments": "",
         "RunAsAdmin": false,
         "Description": "Built-in: launches Notepad"
     },
@@ -14,6 +15,7 @@
         "Type": "builtin",
         "Version": "1.0",
         "Command": "cmd.exe",
+        "Arguments": "",
         "RunAsAdmin": false,
         "Description": "Built-in: launches Command Prompt"
     },
@@ -23,6 +25,7 @@
         "Type": "builtin",
         "Version": "1.0",
         "Command": "cmd.exe",
+        "Arguments": "",
         "RunAsAdmin": true,
         "Description": "Built-in: launches Command Prompt (Admin)"
     },
@@ -32,6 +35,7 @@
         "Type": "builtin",
         "Version": "1.0",
         "Command": "powershell.exe",
+        "Arguments": "",
         "RunAsAdmin": false,
         "Description": "Built-in: launches PowerShell"
     },
@@ -41,6 +45,7 @@
         "Type": "builtin",
         "Version": "1.0",
         "Command": "powershell.exe",
+        "Arguments": "",
         "RunAsAdmin": true,
         "Description": "Built-in: launches PowerShell (Admin)"
     },
@@ -50,6 +55,7 @@
         "Type": "builtin",
         "Version": "1.0",
         "Command": "regedit.exe",
+        "Arguments": "",
         "RunAsAdmin": true,
         "Description": "Built-in: launches Registry Editor"
     },
