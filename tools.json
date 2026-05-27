@@ -257,7 +257,7 @@
         "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/get_expired_passwords.ps1",
         "Pause": true,
         "RunAsAdmin": true,
-        "Description": "Retrieves Active Directory users with passwords expiring within 14 days and saves the information to a CSV file on the desktop (must be run on Domain Controller or machine with AD PowerShell module and appropriate permissions - UAC prompt for elevation)"
+        "Description": "Retrieves Active Directory users with passwords expiring within 14 days and displays the information (must be run on Domain Controller or machine with AD PowerShell module and appropriate permissions - UAC prompt for elevation)"
     },
     {
         "Name": "SentinelOne Load Agent",
@@ -291,7 +291,7 @@
     },
     {
         "Name": "Datto RMM Reinstall Agent",
-        "Category": "Security",
+        "Category": "System",
         "Type": "script",
         "Version": "1.0",
         "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/datto_rmm_reinstall.ps1",
