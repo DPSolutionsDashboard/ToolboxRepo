@@ -93,7 +93,7 @@
     },
     {
         "Name": "2Browse.exe",
-        "Category": "Browser",
+        "Category": "Network",
         "Version": "1.0",
         "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/2Browse.exe",
         "RunAsAdmin": false,
@@ -133,7 +133,7 @@
     },
     {
         "Name": "CrystalDisk Info Portable",
-        "Category": "System",
+        "Category": "Storage",
         "Version": "1.0",
         "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/CrystalDiskInfoPortable.exe",
         "RunAsAdmin": true,
@@ -141,7 +141,7 @@
     },
     {
         "Name": "HWiNFO32",
-        "Category": "System",
+        "Category": "Hardware",
         "Version": "1.0",
         "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/HWiNFO32.exe",
         "RunAsAdmin": true,
@@ -149,7 +149,7 @@
     },
     {
         "Name": "HWiNFO64",
-        "Category": "System",
+        "Category": "Hardware",
         "Version": "1.0",
         "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/HWiNFO64.exe",
         "RunAsAdmin": true,
@@ -157,7 +157,7 @@
     },
     {
         "Name": "HWiNFO_ARM64",
-        "Category": "System",
+        "Category": "Hardware",
         "Version": "1.0",
         "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/HWiNFO_ARM64.exe",
         "RunAsAdmin": true,
