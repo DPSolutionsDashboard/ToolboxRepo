@@ -16,12 +16,117 @@
         "Description": "WinDirStat (x64) - Disk usage statistics viewer"
     },
     {
+        "Name": "WinDirStat (ARM)",
+        "Category": "Storage",
+        "Version": "1.0",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/WinDirStat_arm.exe",
+        "RunAsAdmin": true,
+        "Description": "WinDirStat (ARM) - Disk usage statistics viewer"
+    },
+    {
+        "Name": "WinDirStat (ARM64)",
+        "Category": "Storage",
+        "Version": "1.0",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/WinDirStat_arm64.exe",
+        "RunAsAdmin": true,
+        "Description": "WinDirStat (ARM64) - Disk usage statistics viewer"
+    },
+    {
+        "Name": "WinDirStat (x86)",
+        "Category": "Storage",
+        "Version": "1.0",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/WinDirStat_x86.exe",
+        "RunAsAdmin": true,
+        "Description": "WinDirStat (x86) - Disk usage statistics viewer"
+    },
+    {
+        "Name": "2Browse.exe",
+        "Category": "Browser",
+        "Version": "1.0",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/2Browse.exe",
+        "RunAsAdmin": false,
+        "Description": "2Browse.exe - File browser with built-in file preview and hex viewer"
+    },
+    {
+        "Name": "Advanced IP Scanner",
+        "Category": "Network",
+        "Version": "1.0",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/Advanced_IP_Scanner_2.5.4594.1.exe",
+        "RunAsAdmin": false,
+        "Description": "Advanced IP Scanner - Network discovery and diagnostics tool"
+    },
+    {
+        "Name": "Advanced Port Scanner",
+        "Category": "Network",
+        "Version": "1.0",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/Advanced_Port_Scanner_2.5.3869.exe",
+        "RunAsAdmin": false,
+        "Description": "Advanced Port Scanner - Network discovery and diagnostics tool"
+    },
+    {
+        "Name": "AllDup Portable",
+        "Category": "Storage",
+        "Version": "1.0",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/AllDupPortable.exe",
+        "RunAsAdmin": true,
+        "Description": "AllDup Portable - File deduplication tool"
+    },
+    {
+        "Name": "BlueScreenView",
+        "Category": "System",
+        "Version": "1.0",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/BlueScreenView.exe",
+        "RunAsAdmin": true,
+        "Description": "BlueScreenView - Blue screen crash analysis tool"
+    },
+    {
+        "Name": "CrystalDisk Info Portable",
+        "Category": "System",
+        "Version": "1.0",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/CrystalDiskInfoPortable.exe",
+        "RunAsAdmin": true,
+        "Description": "CrystalDisk Info Portable - Disk information and health monitoring tool"
+    },
+    {
+        "Name": "HWMonitor (x32)",
+        "Category": "System",
+        "Version": "1.0",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/HWMonitor_x32.exe",
+        "RunAsAdmin": true,
+        "Description": "HWMonitor (x32) - System information and monitoring tool"
+    },
+    {
+        "Name": "HWMonitor (x64)",
+        "Category": "System",
+        "Version": "1.0",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/HWMonitor_x64.exe",
+        "RunAsAdmin": true,
+        "Description": "HWMonitor (x64) - System information and monitoring tool"
+    },
+    {
+        "Name": "PUTTY",
+        "Category": "Network",
+        "Version": "1.0",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/PUTTY.EXE",
+        "RunAsAdmin": true,
+        "Description": "PUTTY - SSH and Telnet client"
+    },
+    {
+        "Name": "RecoverKeys",
+        "Category": "System",
+        "Version": "1.0",
+        "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/RecoverKeys.exe",
+        "RunAsAdmin": true,
+        "Description": "RecoverKeys - Product key recovery tool"
+    },
+    {
         "Name": "Sysinternals Suite",
         "Folder": "SysinternalsSuite",
         "Category": "System",
         "Version": "1.0",
         "Url": "https://github.com/DPSolutionsDashboard/ToolboxRepo/releases/download/v1.0/SysinternalsSuite.zip",
         "OpenFolder": true,
+        "Executable": "psexec.exe",
         "Description": "Extracts Sysinternals Suite and opens folder in Explorer"
     },
     {
@@ -40,6 +145,7 @@
         "Type": "script",
         "Version": "1.0",
         "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/get_shutdown_logs.ps1",
+        "Pause": false,
         "RunAsAdmin": true,
         "Description": "Script requiring elevation (UAC prompt)"
     }
