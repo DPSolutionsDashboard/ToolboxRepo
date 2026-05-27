@@ -7,7 +7,7 @@ if ($null -ne $ntpserver -and $ntpserver -ne "") {
 
     $doAutoTZ = [System.Windows.Forms.MessageBox]::Show(
         "Enable automatic timezone detection and location services?",
-        "DPs Toolbox",
+        "DPS Toolbox",
         [System.Windows.Forms.MessageBoxButtons]::YesNo,
         [System.Windows.Forms.MessageBoxIcon]::Question
     )
