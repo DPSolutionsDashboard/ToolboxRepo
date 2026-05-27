@@ -171,7 +171,7 @@
     },
     {
         "Name": "Get Active Directory Computers",
-        "Category": "System",
+        "Category": "Active Directory",
         "Type": "script",
         "Version": "1.0",
         "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/get_ad_computers.ps1",
@@ -181,12 +181,52 @@
     },
     {
         "Name": "Get Active Directory Users",
-        "Category": "System",
+        "Category": "Active Directory",
         "Type": "script",
         "Version": "1.0",
         "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/get_ad_users.ps1",
         "Pause": false,
         "RunAsAdmin": true,
         "Description": "Retrieves Active Directory user information and saves it to a CSV file on the desktop (must be run on Domain Controller or machine with AD PowerShell module and appropriate permissions - UAC prompt for elevation)"
+    },
+    {
+        "Name": "Get Expired Passwords",
+        "Category": "Active Directory",
+        "Type": "script",
+        "Version": "1.0",
+        "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/get_expired_passwords.ps1",
+        "Pause": true,
+        "RunAsAdmin": true,
+        "Description": "Retrieves Active Directory users with passwords expiring within 14 days and saves the information to a CSV file on the desktop (must be run on Domain Controller or machine with AD PowerShell module and appropriate permissions - UAC prompt for elevation)"
+    },
+    {
+        "Name": "SentinelOne Load Agent",
+        "Category": "Security",
+        "Type": "script",
+        "Version": "1.0",
+        "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/s1_load.ps1",
+        "Pause": true,
+        "RunAsAdmin": true,
+        "Description": "Loads the SentinelOne agent using SentinelCtl.exe (requires elevation - UAC prompt for elevation)"
+    },
+    {
+        "Name": "SentinelOne Reload Agent",
+        "Category": "Security",
+        "Type": "script",
+        "Version": "1.0",
+        "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/s1_reload.ps1",
+        "Pause": true,
+        "RunAsAdmin": true,
+        "Description": "Reloads the SentinelOne agent using SentinelCtl.exe and prompts for the passphrase (requires elevation - UAC prompt for elevation)"
+    },
+    {
+        "Name": "SentinelOne Rebind Agent",
+        "Category": "Security",
+        "Type": "script",
+        "Version": "1.0",
+        "Url": "https://raw.githubusercontent.com/DPSolutionsDashboard/ToolboxRepo/main/scripts/s1_rebind.ps1",
+        "Pause": true,
+        "RunAsAdmin": true,
+        "Description": "Rebinds the SentinelOne agent to a new site using SentinelCtl.exe and prompts for the site token and passphrase (requires elevation - UAC prompt for elevation)"
     }
 ]
