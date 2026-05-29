@@ -5,10 +5,10 @@ if (Test-Path -LiteralPath "$s1ctl" -PathType Leaf -ErrorAction SilentlyContinue
     Add-Type -AssemblyName System.Windows.Forms
     $msgBoxInput = [System.Windows.Forms.MessageBox]::Show('Would you like to rebind Sentinel Agent?', 'Rebind Sentinel Agent', 'YesNo')
     switch ($msgBoxInput) {
-        'Yes' {
+        'Yes' {  
+            Add-Type -AssemblyName Microsoft.VisualBasic
+            $sitetoken = [Microsoft.VisualBasic.Interaction]::InputBox("Enter Site Token", "SentinelOne Site Token", "")
             if ($null -ne $sitetoken -and $sitetoken -ne "") {
-                Add-Type -AssemblyName Microsoft.VisualBasic
-                $sitetoken = [Microsoft.VisualBasic.Interaction]::InputBox("Enter Site Token", "SentinelOne Site Token", "")
                 $msgBoxInput2 = [System.Windows.Forms.MessageBox]::Show('Do you have the Passphrase?', 'Rebind Sentinel Agent', 'YesNo')
                 switch ($msgBoxInput2) {
                     'Yes' {
