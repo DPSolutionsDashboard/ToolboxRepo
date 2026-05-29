@@ -30,7 +30,6 @@ if (Test-Path -LiteralPath "$s1ctl" -PathType Leaf -ErrorAction SilentlyContinue
                         & $s1ctl reload -a
                     }
                 }
-            
             }
             else {
                 Write-Output "[WARN] No site token supplied. Exiting."
