@@ -16,7 +16,7 @@ if (Test-Path -LiteralPath "$s1ctl" -PathType Leaf -ErrorAction SilentlyContinue
                         if ($null -ne $passphrase -and $passphrase -ne "") {
                             Write-Output "[INFO] Rebinding Sentinel Agent with site token and passphrase."
                             & $s1ctl bind "$sitetoken" -k "$passphrase"
-                            & $s1ctl reload -a
+                            & $s1ctl reload -a -k "$passphrase"
                         }
                         else {
                             Write-Output "[WARN] No passphrase supplied. Attempting to rebind with site token only."
